@@ -12,7 +12,8 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { loadBuffer, searchAll, readAt } from "./binprobe.mjs";
 
-const SRC_REPO = process.env.CCPURGE_SRC || "D:\\Code\\claudecode-purge";
+// 可选：指向 cc-haha 版仓库以对比旧锚点；公开仓库不硬编码任何本机路径
+const SRC_REPO = process.env.CCPURGE_SRC || null;
 const argv = process.argv.slice(2);
 const file =
   argv.find((a) => a.endsWith(".exe")) ||
@@ -62,7 +63,9 @@ const DIAG = [
 const main = async () => {
   const { buf, size } = loadBuffer(file);
   const shaProbe = buf.subarray(0, 8).toString("hex");
-  const patches = await import(pathToFileURL(path.join(SRC_REPO, "lib", "patches.js")).href);
+  const patches = SRC_REPO
+    ? await import(pathToFileURL(path.join(SRC_REPO, "lib", "patches.js")).href)
+    : await import(pathToFileURL(path.join(import.meta.dirname, "..", "lib", "patches.js")).href);
 
   const rows = [];
   for (const p of patches.ALL_PATCHES) {
@@ -101,7 +104,7 @@ const main = async () => {
       size,
       firstBytes: shaProbe,
       generatedAt: new Date().toISOString(),
-      srcPatches: sanitize(path.join(SRC_REPO, "lib", "patches.js")),
+      srcPatches: SRC_REPO ? sanitize(path.join(SRC_REPO, "lib", "patches.js")) : "本仓库 lib/patches.data.json",
     },
     patches: rows,
     diag,

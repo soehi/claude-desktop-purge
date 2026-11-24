@@ -13,11 +13,12 @@ Claude Code Desktop 破甲插件的控制入口。参数：`$ARGUMENTS`（留空
 插件以本地目录形式登记，命令统一走 `$CLAUDE_PLUGIN_ROOT`（Claude 会把插件目录注入这个变量）：
 
 ```bash
-ROOT="${CLAUDE_PLUGIN_ROOT:-D:\\Code\\claude-desktop-purge}"
+ROOT="${CLAUDE_PLUGIN_ROOT:-<克隆仓库的绝对路径>}"
 cd "$ROOT" || exit 1
 ```
 
-若 `$CLAUDE_PLUGIN_ROOT` 为空，说明插件不是就地加载的，用上面兜底路径或让用户给出仓库位置。
+若 `$CLAUDE_PLUGIN_ROOT` 为空，说明插件不是就地加载的：把上面尖括号部分换成你克隆本仓库的绝对路径。
+本机按 README 的 `--install-plugin` 登记后，`$CLAUDE_PLUGIN_ROOT` 会自动指向插件目录。
 
 ## 命令表
 

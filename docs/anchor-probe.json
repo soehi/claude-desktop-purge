@@ -4,7 +4,7 @@
     "size": 387754656,
     "firstBytes": "4d5a780001000000",
     "generatedAt": "2026-11-23T02:31:30.055Z",
-    "srcPatches": "D:\\Code\\claudecode-purge\\lib\\patches.js"
+    "srcPatches": "<cc-haha 仓库>/lib/patches.js"
   },
   "patches": [
     {

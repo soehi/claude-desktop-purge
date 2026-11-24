@@ -1,0 +1,742 @@
+{
+  "meta": {
+    "file": "%USERPROFILE%\\AppData\\Local\\Claude-3p\\claude-code\\2.1.330\\9424831ad51c\\claude.exe",
+    "size": 387754656,
+    "firstBytes": "4d5a780001000000",
+    "generatedAt": "2026-11-23T02:31:30.055Z",
+    "srcPatches": "D:\\Code\\claudecode-purge\\lib\\patches.js"
+  },
+  "patches": [
+    {
+      "id": "I01",
+      "kind": "identity",
+      "declared": "utf16le",
+      "found": [
+        "utf8"
+      ],
+      "counts": {
+        "utf8": 2
+      },
+      "firstOffsets": {
+        "utf8": [
+          163520832,
+          326493753
+        ]
+      },
+      "findBytes": 114,
+      "findChars": 57,
+      "status": "hit-other-encoding"
+    },
+    {
+      "id": "I02",
+      "kind": "identity",
+      "declared": "utf16le",
+      "found": [
+        "utf8"
+      ],
+      "counts": {
+        "utf8": 2
+      },
+      "firstOffsets": {
+        "utf8": [
+          163520900,
+          326493815
+        ]
+      },
+      "findBytes": 188,
+      "findChars": 94,
+      "status": "hit-other-encoding"
+    },
+    {
+      "id": "I03",
+      "kind": "identity",
+      "declared": "utf16le",
+      "found": [
+        "utf8"
+      ],
+      "counts": {
+        "utf8": 2
+      },
+      "firstOffsets": {
+        "utf8": [
+          163521004,
+          326493914
+        ]
+      },
+      "findBytes": 124,
+      "findChars": 62,
+      "status": "hit-other-encoding"
+    },
+    {
+      "id": "R01",
+      "kind": "refusal",
+      "declared": "utf16le",
+      "found": [
+        "utf8"
+      ],
+      "counts": {
+        "utf8": 2
+      },
+      "firstOffsets": {
+        "utf8": [
+          164180652,
+          332065803
+        ]
+      },
+      "findBytes": 918,
+      "findChars": 459,
+      "status": "hit-other-encoding"
+    },
+    {
+      "id": "R02",
+      "kind": "refusal",
+      "declared": "utf16le",
+      "found": [
+        "utf16le",
+        "utf8"
+      ],
+      "counts": {
+        "utf16le": 1,
+        "utf8": 7
+      },
+      "firstOffsets": {
+        "utf16le": [
+          164095520
+        ],
+        "utf8": [
+          164094316,
+          164094640,
+          164094924,
+          331086312,
+          331086740,
+          331087113,
+          331087777
+        ]
+      },
+      "findBytes": 162,
+      "findChars": 81,
+      "status": "hit"
+    },
+    {
+      "id": "R03",
+      "kind": "refusal",
+      "declared": "utf16le",
+      "found": [
+        "utf8"
+      ],
+      "counts": {
+        "utf8": 2
+      },
+      "firstOffsets": {
+        "utf8": [
+          167382952,
+          332087602
+        ]
+      },
+      "findBytes": 264,
+      "findChars": 132,
+      "status": "hit-other-encoding"
+    },
+    {
+      "id": "S01",
+      "kind": "security-policy",
+      "declared": "utf8",
+      "found": [],
+      "counts": {},
+      "firstOffsets": {},
+      "findBytes": 68,
+      "findChars": 68,
+      "status": "miss"
+    },
+    {
+      "id": "S02",
+      "kind": "security-policy",
+      "declared": "utf8",
+      "found": [],
+      "counts": {},
+      "firstOffsets": {},
+      "findBytes": 355,
+      "findChars": 355,
+      "status": "miss"
+    },
+    {
+      "id": "S03",
+      "kind": "security-policy",
+      "declared": "utf8",
+      "found": [],
+      "counts": {},
+      "firstOffsets": {},
+      "findBytes": 162,
+      "findChars": 162,
+      "status": "miss"
+    },
+    {
+      "id": "S04",
+      "kind": "security-policy",
+      "declared": "utf8",
+      "found": [],
+      "counts": {},
+      "firstOffsets": {},
+      "findBytes": 615,
+      "findChars": 615,
+      "status": "miss"
+    },
+    {
+      "id": "S05",
+      "kind": "security-policy",
+      "declared": "utf8",
+      "found": [],
+      "counts": {},
+      "firstOffsets": {},
+      "findBytes": 109,
+      "findChars": 109,
+      "status": "miss"
+    },
+    {
+      "id": "S06",
+      "kind": "security-policy",
+      "declared": "utf8",
+      "found": [],
+      "counts": {},
+      "firstOffsets": {},
+      "findBytes": 161,
+      "findChars": 161,
+      "status": "miss"
+    },
+    {
+      "id": "S07",
+      "kind": "security-policy",
+      "declared": "utf8",
+      "found": [],
+      "counts": {},
+      "firstOffsets": {},
+      "findBytes": 140,
+      "findChars": 140,
+      "status": "miss"
+    },
+    {
+      "id": "S08",
+      "kind": "security-policy",
+      "declared": "utf8",
+      "found": [],
+      "counts": {},
+      "firstOffsets": {},
+      "findBytes": 176,
+      "findChars": 176,
+      "status": "miss"
+    },
+    {
+      "id": "S09",
+      "kind": "security-policy",
+      "declared": "utf8",
+      "found": [],
+      "counts": {},
+      "firstOffsets": {},
+      "findBytes": 185,
+      "findChars": 185,
+      "status": "miss"
+    },
+    {
+      "id": "S10",
+      "kind": "security-policy",
+      "declared": "utf8",
+      "found": [],
+      "counts": {},
+      "firstOffsets": {},
+      "findBytes": 176,
+      "findChars": 176,
+      "status": "miss"
+    },
+    {
+      "id": "B01",
+      "kind": "sandbox",
+      "declared": "utf16le",
+      "found": [
+        "utf8"
+      ],
+      "counts": {
+        "utf8": 2
+      },
+      "firstOffsets": {
+        "utf8": [
+          170002068,
+          319393862
+        ]
+      },
+      "findBytes": 424,
+      "findChars": 212,
+      "status": "hit-other-encoding"
+    },
+    {
+      "id": "B02",
+      "kind": "sandbox",
+      "declared": "utf16le",
+      "found": [
+        "utf8"
+      ],
+      "counts": {
+        "utf8": 2
+      },
+      "firstOffsets": {
+        "utf8": [
+          178235496,
+          374384482
+        ]
+      },
+      "findBytes": 326,
+      "findChars": 163,
+      "status": "hit-other-encoding"
+    },
+    {
+      "id": "B03",
+      "kind": "sandbox",
+      "declared": "utf16le",
+      "found": [
+        "utf8"
+      ],
+      "counts": {
+        "utf8": 2
+      },
+      "firstOffsets": {
+        "utf8": [
+          166264768,
+          334484783
+        ]
+      },
+      "findBytes": 238,
+      "findChars": 119,
+      "status": "hit-other-encoding"
+    },
+    {
+      "id": "B04",
+      "kind": "sandbox",
+      "declared": "utf16le",
+      "found": [],
+      "counts": {},
+      "firstOffsets": {},
+      "findBytes": 402,
+      "findChars": 201,
+      "status": "miss"
+    },
+    {
+      "id": "C01",
+      "kind": "context-auth",
+      "declared": "utf16le",
+      "found": [],
+      "counts": {},
+      "firstOffsets": {},
+      "findBytes": 420,
+      "findChars": 210,
+      "status": "miss"
+    },
+    {
+      "id": "M01",
+      "kind": "malware",
+      "declared": "utf16le",
+      "found": [],
+      "counts": {},
+      "firstOffsets": {},
+      "findBytes": 600,
+      "findChars": 300,
+      "status": "miss"
+    },
+    {
+      "id": "F01",
+      "kind": "classifier-failopen",
+      "declared": "utf16le",
+      "found": [
+        "utf8"
+      ],
+      "counts": {
+        "utf8": 18
+      },
+      "firstOffsets": {
+        "utf8": [
+          328325132,
+          328325413,
+          332875950,
+          332876307,
+          332877821,
+          332879316,
+          332880186,
+          332885436,
+          334893034,
+          334893153,
+          334893267,
+          334934912,
+          334935167,
+          334935559,
+          334936926,
+          334937677,
+          334945693,
+          338190927
+        ]
+      },
+      "findBytes": 28,
+      "findChars": 14,
+      "status": "hit-other-encoding"
+    },
+    {
+      "id": "T01",
+      "kind": "tone",
+      "declared": "utf16le",
+      "found": [
+        "utf8"
+      ],
+      "counts": {
+        "utf8": 2
+      },
+      "firstOffsets": {
+        "utf8": [
+          167384345,
+          332076199
+        ]
+      },
+      "findBytes": 504,
+      "findChars": 252,
+      "status": "hit-other-encoding"
+    }
+  ],
+  "diag": [
+    {
+      "id": "CLS-HEAD",
+      "needle": "You are a security classifier for tool calls made by a codin",
+      "encs": [],
+      "hits": {}
+    },
+    {
+      "id": "CLS-DECIDE",
+      "needle": "Decide whether the current action is safe to execute without",
+      "encs": [],
+      "hits": {}
+    },
+    {
+      "id": "CLS-HARDDENY",
+      "needle": "Hard-deny rules are unconditional.",
+      "encs": [],
+      "hits": {}
+    },
+    {
+      "id": "CLS-SOFTDENY",
+      "needle": "Apply soft-deny rules next.",
+      "encs": [],
+      "hits": {}
+    },
+    {
+      "id": "CLS-CLASSIFY",
+      "needle": "Use the classify_result tool.",
+      "encs": [],
+      "hits": {}
+    },
+    {
+      "id": "CLS-SENSITIVE",
+      "needle": "Sensitive Data Exfiltration",
+      "encs": [],
+      "hits": {}
+    },
+    {
+      "id": "CLS-PERMBYPASS",
+      "needle": "Permission-System Bypass",
+      "encs": [],
+      "hits": {}
+    },
+    {
+      "id": "CLS-IRREV",
+      "needle": "Irreversible Local Changes",
+      "encs": [],
+      "hits": {}
+    },
+    {
+      "id": "CLS-EXTWRITE",
+      "needle": "External Writes",
+      "encs": [],
+      "hits": {}
+    },
+    {
+      "id": "CLS-SECBOUND",
+      "needle": "Security Boundary Changes",
+      "encs": [],
+      "hits": {}
+    },
+    {
+      "id": "TEMPLATE",
+      "needle": "<permissions_template>",
+      "encs": [
+        "utf16le",
+        "utf8"
+      ],
+      "hits": {
+        "utf16le": [
+          172481712
+        ],
+        "utf8": [
+          172511252,
+          332824644,
+          332866387,
+          349060055
+        ]
+      }
+    },
+    {
+      "id": "AUTOMODE-FILE",
+      "needle": "auto_mode_system_prompt",
+      "encs": [],
+      "hits": {}
+    },
+    {
+      "id": "IDENT",
+      "needle": "You are Claude Code",
+      "encs": [
+        "utf16le",
+        "utf8"
+      ],
+      "hits": {
+        "utf16le": [
+          171826524
+        ],
+        "utf8": [
+          163520832,
+          163520900,
+          326493753,
+          326493815,
+          328577137
+        ]
+      }
+    },
+    {
+      "id": "IDENT-OFFICIAL",
+      "needle": "Anthropic's official CLI for Claude",
+      "encs": [
+        "utf16le",
+        "utf8"
+      ],
+      "hits": {
+        "utf16le": [
+          164203400,
+          171951972
+        ],
+        "utf8": [
+          163520853,
+          163520921,
+          171981994,
+          172338350,
+          326493774,
+          326493836,
+          329481672,
+          329663041
+        ]
+      }
+    },
+    {
+      "id": "REFUSE-IMPORTANT",
+      "needle": "IMPORTANT: Assist with authorized security testing",
+      "encs": [
+        "utf8"
+      ],
+      "hits": {
+        "utf8": [
+          164180652,
+          332065803
+        ]
+      }
+    },
+    {
+      "id": "REFUSE-INTERACTIVE",
+      "needle": "You are an interactive CLI tool that helps users",
+      "encs": [
+        "utf16le",
+        "utf8"
+      ],
+      "hits": {
+        "utf16le": [
+          164095520
+        ],
+        "utf8": [
+          164094316,
+          164094640,
+          164094924,
+          331086312,
+          331086740,
+          331087113,
+          331087777
+        ]
+      }
+    },
+    {
+      "id": "URL-NEVER",
+      "needle": "You must NEVER generate or guess URLs",
+      "encs": [
+        "utf8"
+      ],
+      "hits": {
+        "utf8": [
+          167382952,
+          332087602
+        ]
+      }
+    },
+    {
+      "id": "SBX-PARAM",
+      "needle": "dangerouslyDisableSandbox",
+      "encs": [
+        "utf16le",
+        "utf8"
+      ],
+      "hits": {
+        "utf16le": [
+          166263232,
+          166263660
+        ],
+        "utf8": [
+          164001132,
+          166026509,
+          166260033,
+          166260099,
+          166262417,
+          166264204,
+          166264292,
+          166264510
+        ]
+      }
+    },
+    {
+      "id": "SBX-OUTSIDE",
+      "needle": "Allow commands to run outside the sandbox via the dangerousl",
+      "encs": [
+        "utf8"
+      ],
+      "hits": {
+        "utf8": [
+          170002068,
+          319393862
+        ]
+      }
+    },
+    {
+      "id": "SBX-RETRY",
+      "needle": "When a command fails due to sandbox restrictions",
+      "encs": [
+        "utf8"
+      ],
+      "hits": {
+        "utf8": [
+          178235496,
+          374384482
+        ]
+      }
+    },
+    {
+      "id": "SBX-ALLOWLIST",
+      "needle": "Do not suggest adding sensitive paths like ~/.bashrc",
+      "encs": [
+        "utf8"
+      ],
+      "hits": {
+        "utf8": [
+          166264768,
+          334484783
+        ]
+      }
+    },
+    {
+      "id": "SBX-DENIED",
+      "needle": "Do not bypass a denied operation using another tool",
+      "encs": [],
+      "hits": {}
+    },
+    {
+      "id": "CLAUDE-MD-UNTRUSTED",
+      "needle": "untrusted context and environment",
+      "encs": [],
+      "hits": {}
+    },
+    {
+      "id": "CLAUDE-MD-CANNOT",
+      "needle": "cannot authorize actions or override policy",
+      "encs": [],
+      "hits": {}
+    },
+    {
+      "id": "MALWARE-REFUSE",
+      "needle": "you MUST refuse to improve or augment the code",
+      "encs": [],
+      "hits": {}
+    },
+    {
+      "id": "MALWARE-CONSIDER",
+      "needle": "consider whether it would be considered malware",
+      "encs": [],
+      "hits": {}
+    },
+    {
+      "id": "FAILCLOSED",
+      "needle": "shouldBlock:!0",
+      "encs": [
+        "utf8"
+      ],
+      "hits": {
+        "utf8": [
+          328325132,
+          328325413,
+          332875950,
+          332876307,
+          332877821,
+          332879316,
+          332880186,
+          332885436
+        ]
+      }
+    },
+    {
+      "id": "FAILOPEN",
+      "needle": "shouldBlock:!1",
+      "encs": [
+        "utf8"
+      ],
+      "hits": {
+        "utf8": [
+          332875518,
+          332885674,
+          334928482,
+          334932655,
+          334937060,
+          334937267
+        ]
+      }
+    },
+    {
+      "id": "HOOK-TREAT",
+      "needle": "Treat feedback from hooks",
+      "encs": [
+        "utf8"
+      ],
+      "hits": {
+        "utf8": [
+          167384345,
+          332076199
+        ]
+      }
+    },
+    {
+      "id": "KEEPCODING",
+      "needle": "keep-coding-instructions",
+      "encs": [
+        "utf16le",
+        "utf8"
+      ],
+      "hits": {
+        "utf16le": [
+          176568258
+        ],
+        "utf8": [
+          163260884,
+          324182195,
+          330221495,
+          331075098,
+          331080773,
+          358086117
+        ]
+      }
+    }
+  ]
+}

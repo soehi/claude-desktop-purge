@@ -1,0 +1,22 @@
+{
+  "name": "claude-desktop-purge",
+  "version": "1.0.0",
+  "description": "Claude Code Desktop 破甲：对 Desktop 派生的真身 CLI 做等长字节补丁，并写入 settings/outputStyle/CLAUDE.md/hooks 四层注入，全量 journal 可逐字节回滚。",
+  "author": {
+    "name": "claude-desktop-purge"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "claude-code",
+    "claude-desktop",
+    "byte-patch",
+    "jailbreak",
+    "harness"
+  ],
+  "commands": [
+    "./commands"
+  ],
+  "skills": [
+    "./skills"
+  ]
+}

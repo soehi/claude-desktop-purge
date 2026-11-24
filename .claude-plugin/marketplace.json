@@ -1,0 +1,22 @@
+{
+  "name": "claude-desktop-purge",
+  "owner": {
+    "name": "claude-desktop-purge"
+  },
+  "metadata": {
+    "description": "Claude Code Desktop 破甲插件（本地市场）",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-desktop-purge",
+      "source": "./plugin",
+      "description": "Claude Code Desktop 破甲：等长字节补丁 + 四层注入 + 逐字节回滚。",
+      "version": "1.0.0",
+      "author": {
+        "name": "claude-desktop-purge"
+      },
+      "license": "Apache-2.0"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+目标 %USERPROFILE%\AppData\Local\Claude-3p\claude-code\2.1.330\9424831ad51c\claude.exe
+大小 387,754,656 B
+
+ID   声明       状态                  utf16le  utf8   首偏移
+I01  utf16le  hit-other-encoding  -        2     163520832, 326493753
+I02  utf16le  hit-other-encoding  -        2     163520900, 326493815
+I03  utf16le  hit-other-encoding  -        2     163521004, 326493914
+R01  utf16le  hit-other-encoding  -        2     164180652, 332065803
+R02  utf16le  hit                 1        7     164095520
+R03  utf16le  hit-other-encoding  -        2     167382952, 332087602
+S01  utf8     miss                -        -     -
+S02  utf8     miss                -        -     -
+S03  utf8     miss                -        -     -
+S04  utf8     miss                -        -     -
+S05  utf8     miss                -        -     -
+S06  utf8     miss                -        -     -
+S07  utf8     miss                -        -     -
+S08  utf8     miss                -        -     -
+S09  utf8     miss                -        -     -
+S10  utf8     miss                -        -     -
+B01  utf16le  hit-other-encoding  -        2     170002068, 319393862
+B02  utf16le  hit-other-encoding  -        2     178235496, 374384482
+B03  utf16le  hit-other-encoding  -        2     166264768, 334484783
+B04  utf16le  miss                -        -     -
+C01  utf16le  miss                -        -     -
+M01  utf16le  miss                -        -     -
+F01  utf16le  hit-other-encoding  -        18    328325132, 328325413, 332875950
+T01  utf16le  hit-other-encoding  -        2     167384345, 332076199
+
+直接命中 1 / 24
+
+诊断 needle：
+  CLS-HEAD          MISS
+  CLS-DECIDE        MISS
+  CLS-HARDDENY      MISS
+  CLS-SOFTDENY      MISS
+  CLS-CLASSIFY      MISS
+  CLS-SENSITIVE     MISS
+  CLS-PERMBYPASS    MISS
+  CLS-IRREV         MISS
+  CLS-EXTWRITE      MISS
+  CLS-SECBOUND      MISS
+  TEMPLATE          utf16le:1@172481712 utf8:4@172511252
+  AUTOMODE-FILE     MISS
+  IDENT             utf16le:1@171826524 utf8:5@163520832
+  IDENT-OFFICIAL    utf16le:2@164203400 utf8:8@163520853
+  REFUSE-IMPORTANT  utf8:2@164180652
+  REFUSE-INTERACTIVEutf16le:1@164095520 utf8:7@164094316
+  URL-NEVER         utf8:2@167382952
+  SBX-PARAM         utf16le:2@166263232 utf8:8@164001132
+  SBX-OUTSIDE       utf8:2@170002068
+  SBX-RETRY         utf8:2@178235496
+  SBX-ALLOWLIST     utf8:2@166264768
+  SBX-DENIED        MISS
+  CLAUDE-MD-UNTRUSTEDMISS
+  CLAUDE-MD-CANNOT  MISS
+  MALWARE-REFUSE    MISS
+  MALWARE-CONSIDER  MISS
+  FAILCLOSED        utf8:8@328325132
+  FAILOPEN          utf8:6@332875518
+  HOOK-TREAT        utf8:2@167384345
+  KEEPCODING        utf16le:1@176568258 utf8:6@163260884

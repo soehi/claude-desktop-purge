@@ -1,0 +1,14 @@
+[
+  ".payload",
+  ".verified",
+  "getHostBinaryPathIfPresent",
+  "awaitInFlightHostPrepare",
+  "Binary preflight: no usable binary",
+  "Binary preflight: .verified marker missing but binary exists",
+  "Decompressed to ",
+  "Installed at ",
+  "sha256:",
+  "readManifest",
+  "wantDownload",
+  "wanted"
+]

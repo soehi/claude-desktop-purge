@@ -1,0 +1,58 @@
+{
+  "name": "claude-desktop-purge",
+  "version": "1.0.0",
+  "description": "Claude Code Desktop 破甲（claude-desktop-purge）：补丁对象是 Desktop 派生的真身 CLI（Bun 单文件 claude.exe）。等长字节写回 + 完整性门处理 + settings/outputStyle/CLAUDE.md/hooks 四层注入，全量 journal 可逐字节回滚。dsh-purge → claudecode-purge 的 Claude Desktop 移植版。",
+  "type": "module",
+  "main": "lib/apply.js",
+  "exports": {
+    ".": {
+      "default": "./lib/apply.js"
+    },
+    "./patches": "./lib/patches.js",
+    "./engine": "./lib/engine.js",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "cdpurge": "bin/cdpurge.js",
+    "claude-desktop-purge": "bin/cdpurge.js"
+  },
+  "files": [
+    "lib",
+    "bin",
+    "hooks",
+    "presets",
+    "docs",
+    "tools",
+    "README.md"
+  ],
+  "scripts": {
+    "scan": "node bin/cdpurge.js --scan",
+    "status": "node bin/cdpurge.js --status",
+    "apply": "node bin/cdpurge.js --apply",
+    "apply:dry": "node bin/cdpurge.js --apply --dry-run",
+    "revert": "node bin/cdpurge.js --revert",
+    "ui": "node bin/cdpurge.js --ui",
+    "anchors": "node tools/gen-patches.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "claude-code",
+    "claude-desktop",
+    "claude-desktop-purge",
+    "bun-binary",
+    "byte-patch",
+    "jailbreak",
+    "harness"
+  ],
+  "license": "Apache-2.0",
+  "cdPurge": {
+    "host": "Claude Code Desktop (Electron)",
+    "target": "%LOCALAPPDATA%\\Claude-3p\\claude-code\\<version>\\<hash>\\claude.exe",
+    "title": {
+      "zh": "claude-desktop-purge",
+      "en": "claude-desktop-purge"
+    }
+  }
+}
